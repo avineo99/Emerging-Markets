@@ -324,6 +324,7 @@ button#ScrollToTop:hover {
     rgba(145, 145, 145, 1) 45.673078298568726%,
     rgba(0, 0, 0, 1) 100%
   );
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* background: linear-gradient(90deg, #D80028 0%, #919191 45.67%, #000000 100%); */
 
   background-clip: text;
