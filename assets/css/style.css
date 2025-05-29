@@ -217,16 +217,24 @@ h1, .h1{
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 } */
 .btn {
-  padding: 18px 30px;
+  padding: 11px 21px;
   border: 1px solid;
-  border-radius: 0px;
+  border-radius: 120px;
   line-height: normal;
   font-size: 14px;
-  font-weight: 600;
-  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
-
+.btn-light{
+  background-color: #a0a0a0;
+  color: #fff;
+  border-color: #a0a0a0;
+}
+.btn-light:hover{
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
 
 /* .scroll header {
     position: fixed;
@@ -256,8 +264,8 @@ h1, .h1{
   margin-left: 5px;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
-  color: #D80028;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover, .footer-links ul li a:hover {
+  color: #D80028 !important;
 }
 
 
@@ -273,13 +281,13 @@ button#ScrollToTop {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 2px solid #CB9D42;
+  border: 2px solid #D80028;
   z-index: 99;
-  color: #CB9D42;
+  color: #D80028;
 }
 
 button#ScrollToTop:hover {
-  background: #CB9D42;
+  background: #D80028;
   color: #fff;
 }
 
@@ -362,7 +370,19 @@ button#ScrollToTop:hover {
   background-size: 100% 100%;
   display: inline-block;
 }
-
+.form-group select{
+  height: 70px;
+}
+.idea-dtl{
+  border-color: rgba(204, 204, 204, 0.5) !important;
+}
+.idea-text-wrap {
+  margin-top: -140px;
+  position: relative;
+}
+.idea-img{
+  border-color: #8e8e8e !important;
+}
 
 @media(max-width:1600px){
   .container {
@@ -403,6 +423,9 @@ button#ScrollToTop:hover {
   height: 80%;
   width: 38%;
 }
+.form-group select {
+  height: 55px;
+}
 }
 @media(max-width:1400px){
   .navbar-brand {
@@ -435,6 +458,16 @@ button#ScrollToTop:hover {
 }
 .fs-15 {
   font-size: 14px;
+}
+.form-group select {
+  height: 50px;
+}
+.btn {
+  padding: 10px 21px;
+  font-size: 12px;
+}
+.idea-text-wrap {
+  margin-top: -70px;
 }
 }
 @media(max-width:1199px){
@@ -534,5 +567,8 @@ button#ScrollToTop:hover {
 }
 .fs-40 {
   font-size: 20px;
+}
+.form-group select {
+  height: 45px;
 }
 }
