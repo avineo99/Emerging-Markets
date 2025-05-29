@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1660px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+}
+.object-cover{
+    object-fit: cover;
+}
+.rounded-2{
+    border-radius: 18px !important;
+}
+.rounded-3{
+    border-radius: 30px !important;
+}
+
+.fff{
+    font-family: "Figtree", sans-serif;
+}
+
+.bg-primary{
+    background-color: #0A8FF2 !important;
+}
+
+.bg-primary1 {
+    background-color: #0339f8 !important;
+}
+
+.text-primary{
+    color: #0A8FF2 !important;
+}
+.appointment-btn.btn {
+    color: #fff;
+    background: #0A8FF2;
+    padding: 15px 120px;
+    font-size: 26px;
+}
+
+
+.txtindent{text-indent: 5px;}
+.blackborder{border:solid 1px #000;}
+
+.fw-300{
+    font-weight: 300 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+
+
+/* 0 */
+
+.ls-001{
+    letter-spacing: -0.01em;
+}
+.ls-002{
+    letter-spacing: -0.02em;
+}
+.ls-100{
+    letter-spacing: 0.1em;
+}
+.ls-150{
+    letter-spacing: 0.15em;
+}
+.ls-200{
+    letter-spacing: 0.2em;
+}
+.ls-300{
+    letter-spacing: 0.03em;
+}
+.ls-002{
+     letter-spacing: -0.02em;
+}
+.ls-004{
+    letter-spacing: -0.04em;
+}
+
+
+/* 0 */
+
+
+/* 01 */
+h1, .h1{
+    font-size: 60px;
+    line-height: 1;
+}
+.fs-13{
+    font-size: 13px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-39{
+    font-size: 39px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-70{
+    font-size: 70px;
+}
+
+
+/* 01 */
+
+/* 02 */
+.lh-0-9{
+    line-height: 0.9;
+}
+.lh-1-2{
+    line-height: 1.2;
+}
+.lh-1-3{
+    line-height: 1.3;
+}
+.lh-1-4{
+    line-height: 1.4;
+}
+.lh-1-5{
+    line-height: 1.5;
+}
+.lh-1-7{
+    line-height: 1.7;
+}
+.lh-1-8{
+    line-height: 1.8;
+}
+
+/* 02 */
+
+ .page-id-490 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: #66CCFF ;
+}
+
+.page-id-488 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: #66CCFF;
+}
+
+
+.btn {
+    padding: 5px 26px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: "Figtree", sans-serif;
+    font-size: 21px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    font-weight: 400;
+}
+
+.btn-primary{
+    color: #0A8FF2;
+    background-color: transparent;
+    border-color: #0A8FF2;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #0A8FF2;
+    border-color: #0A8FF2;
+}
+
+.book-btn.btn {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background: #0A8FF2;
+    padding: 7px 85px;
+}
+.book-btn.btn:hover, .appointment-btn.btn:hover {
+    background: transparent;
+    color: #0A8FF2 !important;
+}
+/* pages css start */
+header{
+    position: relative;
+    z-index: 99;
+}
+.navbar-brand{
+    display: inline-block;
+    width: 250px;
+}
+.navbar-nav .nav-link {
+    padding: 0 !important;
+    color: #00588E;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    font-family: "Figtree", sans-serif;
+}
+.navbar-nav>li+li {
+    margin-left: 17px;
+} 
+/*.navbar-nav>a+a {
+	margin-left: 25px;} */
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active{
+    color:#0A8FF2 ;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #0a8ff2;
+}
+.dropdown-item {
+    font-size: 16px;
+}
+
+.carousel-item::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 50%;
+ background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 73%);
+}
+
+
+
+
+
+
+
+button#ScrollToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    z-index: 99;
+}
+button#ScrollToTop:hover {
+    background: #000;
+    color: #fff;
+}
+@media(min-width:992px){
+    div#navbarOffcanvas {
+        position: inherit !important;
+        flex-direction: row;
+        visibility: visible;
+        width: auto;
+        transform: translateX(0%);
+        border-right: 0;
+        margin-left: 0;
+        background-color: transparent;
+    }
+    .offcanvas-body {
+        flex-grow: 0;
+        padding: 0;
+        overflow-y: visible;
+    }
+}
+
+.audiology-wrap{
+    background-color: #fff;
+    box-shadow: 2px 4px 8px 4px rgba(168, 168, 168, 0.25);
+    
+}
+
+.audiology-sec.bg-primary, .faq-sec.bg-primary, .association-sec.bg-primary {
+    background-color: #EAF6FF !important; 
+}
+
+
+
+/*.audiology-sec.bg-primary, .faq-sec.bg-primary{
+    background-color: #EAF6FF !important;
+}*/
+
+.audiology-sec.bg-primary{
+    background-color: #EAF6FF  !important;
+}
+
+audiology-secs.bg-primary1 {
+    background-color: #0339f8 !important;
+}
+
+.page-id-12 .audiology-sec{
+    background-color: #0339F8  !important;
+}
+
+
+
+
+.faq-sec.bg-primary{
+    background-color:  #EAF6FF !important; 
+}
+
+.testimonial-stars i {
+    color: #01A6DA;
+    font-size: 20px;
+}
+.testimonial-sec .slick-slide {
+    padding-right: 50px;
+}
+.footer-bx ul li a, .footer-bx ul li{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    font-family: "Figtree", sans-serif;
+}
+.form-group {
+    height: 60px;
+}
+.form-group button {
+    width: 15% !important;
+    font-size: 30px;
+}
+.form-group button:hover{
+    background-color: #000 !important;
+    color: #fff;
+}
+.form-group input {
+    width: 85% !important;
+}
+.footer-social ul li a{
+    font-size: 35px;
+    color: #fff;
+}
+.footer-social ul li a:hover, .footer-bx ul li a:hover{
+    color: #000;
+}
+.welcome-sec::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-image: url(../images/welcome-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    width: 800px;
+    z-index: -1;
+}
+.audiology-heading h2.text-primary{
+    color: #025796 !important;
+}
+
+
+
+
+.page-id-12 .audiology-heading h2.text-primary{
+    color: #fff !important;
+}
+
+.sub-banner .carousel-item::before{
+    display: none;
+}
+.sub-banner .sub-banner-item{
+    height: 500px;
+}
+.sub-banner .sub-banner-item::after{
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 20%);
+}
+.sub-banner .container{
+    z-index: 9;
+}
+.audio-img {
+    height: 260px;
+}
+.mission-sec ul, .faq-text ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+.mission-sec ul li::marker, .faq-text ul li::marker{
+    color: #0A8FF2;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #0A8FF2;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #0A8FF2;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
+.audiology-sec .slick-prev:before, .audiology-sec .slick-next:before {
+    content: '\f104';
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+    opacity: 1;
+}
+.audiology-sec .slick-next:before{
+    content: '\f105';
+}
+.audiology-sec .slick-prev, .audiology-sec .slick-next {
+    top: 45%;
+    z-index: 9;
+}
+.audiology-sec .slick-slide {
+    padding: 0 20px;
+}
+.audiology-sec .slick-prev {
+    left: -10px;
+}
+.audiology-sec .slick-next {
+    right: -10px;
+}
+.audiology-sec .slick-slide > div {
+    height: 100%;
+}
+.audiology-sec .slick-slide{
+    height: auto;
+}
+.audiology-sec .slick-track {
+    display: flex;
+    padding: 10px 0;
+}
+.audio-text h3.text-primary {
+    color: #01A6DA !important;
+}
+
+@media (min-width: 1500.98px) and (max-width: 1579.98px){
+	 .navbar-brand {
+        width: 200px;
+    }
+    
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+	 .navbar-nav>a+a {
+        margin-left: 25px;
+    }
+	
+}
+
+
+
+@media(max-width:1500px){
+    .navbar-brand {
+        width: 200px;
+    }
+    
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+/*	 .navbar-nav>a+a {
+        margin-left: 25px;
+    } */
+  .navbar-nav>li+li {
+        margin-left: 15px;
+    } 
+    .btn {
+        padding: 4px 22px;
+        font-size: 17px;
+    }
+    h1, .h1 {
+        font-size: 45px;
+    }
+    .lh-1-4 {
+        line-height: 1.4;
+    }
+    .book-btn.btn {
+        font-size: 19px;
+        padding: 6px 60px;
+    }
+    
+    .fs-39 {
+        font-size: 29px;
+    }
+    .fs-25 {
+        font-size: 19px;
+    }
+    .fs-45 {
+        font-size: 35px;
+    }
+    .fs-22 {
+        font-size: 17px;
+    }
+    .fs-60 {
+        font-size: 45px;
+    }
+    .appointment-btn.btn {
+        padding: 11px 80px;
+        font-size: 20px;
+    }
+    .fs-20 {
+        font-size: 16px;
+    }
+    .fs-18{
+        font-size: 15px;
+    }
+    .fs-32 {
+        font-size: 24px;
+    }
+    .footer-bx ul li a, .footer-bx ul li {
+        font-size: 16px;
+    }
+    .fs-16 {
+        font-size: 14px;
+    }
+    .fs-26 {
+        font-size: 20px;
+    }
+    .welcome-sec::before {
+        height: 400px;
+        width: 500px;
+    }
+    .fs-70 {
+        font-size: 55px;
+    }
+    .fs-23 {
+        font-size: 20px;
+    }
+    .dropdown-item {
+    font-size: 14px;
+}
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px){
+
+ .navbar-brand {
+        width: 150px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+	 .navbar-nav>a+a {
+        margin-left: 15px;
+    }
+	.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    margin-right: 10px!important;
+}
+}
+
+@media(max-width:1200px){
+    .navbar-brand {
+        width: 150px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+ /* 	 .navbar-nav>a+a {
+        margin-left: 17px;
+    } */
+  .navbar-nav>li+li {
+        margin-left: 17px;
+    }
+    .btn {
+        padding: 3px 17px;
+        font-size: 15px;
+    }
+    h1, .h1 {
+        font-size: 35px;
+    }
+    .fs-26 {
+        font-size: 16px;
+    }
+    .book-btn.btn {
+        font-size: 15px;
+        padding: 4px 40px;
+    }
+    .fs-39 {
+        font-size: 24px;
+    }
+    .fs-25 {
+        font-size: 16px;
+    }
+    .fs-45 {
+        font-size: 28px;
+    }
+    .fs-22 {
+        font-size: 14px;
+    }
+    .fs-60 {
+        font-size: 38px;
+    }
+    .appointment-btn.btn {
+        padding: 7px 50px;
+        font-size: 16px;
+    }
+    .testimonial-stars i {
+        font-size: 16px;
+    }
+    .fs-20 {
+        font-size: 14px;
+    }
+    .fs-18 {
+        font-size: 13px;
+    }
+    .fs-32 {
+        font-size: 20px;
+    }
+    .footer-bx ul li a, .footer-bx ul li {
+        font-size: 14px;
+    }
+    .form-group {
+        height: 45px;
+    }
+    .form-group button {
+        font-size: 22px;
+    }
+    .fs-16 {
+        font-size: 12px;
+    }
+    .footer-social ul li a {
+        font-size: 30px;
+    }
+    .audio-img {
+        height: 180px;
+    }
+    .fs-70 {
+        font-size: 50px;
+    }
+    .fs-23 {
+        font-size: 18px;
+    }
+    .dropdown-item {
+    font-size: 12px;
+}
+}
+
+@media(max-width:991px){
+    .testimonial-sec .slick-slide {
+        padding-right: 0px;
+    }
+
+    .navbar-toggler {
+        font-size: 30px;
+        padding: 0;
+    }
+    .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    div#navbarOffcanvas {
+        background: #fff;
+        border-right: 0 !important;
+        padding: 35px !important;
+        width: 300px;
+    }
+/*	.navbar-nav>a+a {
+        margin-left: 0;
+    } */
+  .navbar-nav>li+li {
+        margin-left: 0;
+    }
+    .navbar-nav .nav-link {
+        padding: 2px 0 !important;
+    }
+    .offcanvas-header .btn-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        filter: brightness(1) invert(0);
+        opacity: 1;
+    }
+    .offcanvas-header {
+        padding: 0;
+    }
+    .welcome-sec::before {
+        top: 80%;
+    }
+    .fs-70 {
+        font-size: 45px;
+    }
+
+}
+
+@media(max-width:767px){
+    .carousel-item {
+        height: 350px;
+    }
+    .appointment-img {
+        height: 350px;
+    }
+    footer .row{
+        flex-direction: column-reverse;
+    }
+    .welcome-sec::before {
+        height: 300px;
+        width: 70%;
+    }
+    .sub-banner .sub-banner-item{
+        height: 320px;
+    }
+    .fs-70 {
+        font-size: 40px;
+    }
+    .fs-23 {
+        font-size: 16px;
+    }
+}
+@media(max-width:575px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .carousel-item {
+        height: 450px;
+    }
+    h1, .h1 {
+        font-size: 30px;
+    }
+    .book-btn.btn {
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+    .fs-39 {
+        font-size: 22px;
+    }
+    .fs-45 {
+        font-size: 25px;
+    }
+    .fs-60 {
+        font-size: 30px;
+    }
+    .appointment-btn.btn {
+        padding: 11px 40px;
+        font-size: 14px;
+       line-height: 1;
+    }
+    .appointment-img {
+        height: 400px;
+    }
+    .welcome-sec::before {
+        top: 70%;
+    }
+}
+#footer .nav-link {
+    display: block;
+    padding: 0.4rem 0.1rem;
+    color: #ffffff!important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} 
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    margin-right: 15px!important;
+}
+ .header-container {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0; /* Margin around the header */
+        }
+        .border-line {
+            flex-grow: 1; /* Allows the lines to take up remaining space */
+            border-top: 2px solid #9797a5; /* Change color and thickness of line */
+            margin: 0 10px; /* Space between the line and the heading */
+        }
+        .header-title {
+            font-size: 24px; /* Font size for the heading */
+            margin: 0; /* Remove default margin */
+        }
